@@ -3,7 +3,9 @@ import PriceCard from "./components/PriceCard";
 function App() {
   return (
     <>
-      <PriceCard />
+      <main className="bg-cream">
+        <PriceCard />
+      </main>{" "}
     </>
   );
 }
