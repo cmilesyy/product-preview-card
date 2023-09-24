@@ -7,19 +7,19 @@ function PriceCard() {
     <>
       <section>
         <div className="p-5 md:flex md:w-[600px]">
-          <div className="">
+          <div>
             <img
               src={perfumeMobile}
               alt="Perfume Image"
-              className="rounded-t-lg h-full md:hidden"
+              className="rounded-t-lg h-full md:hidden "
             />
             <img
               src={perfumeDesktop}
               alt="Perfume Image"
-              className="hidden md:block md:w-full md:rounded-l-lg "
+              className="hidden md:block md:rounded-l-lg  "
             />
           </div>
-          <div className="px-6 flex flex-col bg-white rounded-b-lg gap-3 pt-5 md:rounded-r-lg md:rounded-l-none md:w-50%">
+          <div className="px-6 flex flex-col bg-white rounded-b-lg gap-3 pt-5 md:rounded-r-lg md:rounded-l-none">
             <span className="uppercase tracking-widest text-gray">perfume</span>
             <h2 className="text-3xl">Gabrielle Essence Eau De Parfum</h2>
             <p className="text-sm text-gray">
@@ -28,9 +28,9 @@ function PriceCard() {
             </p>
             <div className="flex gap-3 items-center">
               <span className="text-green">£149.00</span>
-              <span className="line-through text-xs">£169.00</span>
+              <span className="line-through text-xs text-gray ">£169.00</span>
             </div>
-            <button className="bg-green rounded-md w-auto flex items-center justify-center gap-3 px-4 py-4 my-3">
+            <button className="bg-green rounded-md w-auto flex items-center justify-center gap-3 px-4 py-4 my-3 text-white">
               <img src={cart} alt="" className="flex" />
               Add to Cart
             </button>
